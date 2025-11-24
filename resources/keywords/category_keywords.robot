@@ -3,8 +3,8 @@ Documentation     Category Page Keywords
 Library           SeleniumLibrary
 
 Resource          ../pages/CategoryPage.robot
-Resource          ../locators/category_locators.robot
-Resource          common.robot
+#Resource          ../locators/category_locators.robot
+#Resource          common.robot
 
 
 *** Keywords ***

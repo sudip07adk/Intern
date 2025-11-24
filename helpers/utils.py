@@ -50,9 +50,9 @@ class TestUtils:
             dict: Dictionary with dummy order information
         """
         return {
-            "name": "Test User",
-            "country": "United States",
-            "city": "New York",
+            "name": "Sudip",
+            "country": "Nepal",
+            "city": "Kathmandu",
             "card": "4111111111111111",
             "month": "12",
             "year": "2025"

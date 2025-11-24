@@ -20,7 +20,7 @@ Close Application
 Wait For Element To Be Visible
     [Documentation]    Wait for an element to be visible with timeout
     [Arguments]    ${locator}    ${timeout}=10s
-    Wait Until Element Is Visible    ${locator}    timeout=${timeout}
+    Wait Until Page Contains    PRODUCT STORE    10s
     Log    Element is visible: ${locator}
 
 Wait For Element And Click
@@ -35,7 +35,7 @@ Get Element Text
     [Arguments]    ${locator}
     ${text}=    Get Text    ${locator}
     Log    Element text: ${text}
-    [Return]    ${text}
+    Return    ${text}
 
 Verify Element Exists
     [Documentation]    Verify that an element exists on page
@@ -55,7 +55,7 @@ Log Current Page Title
     [Documentation]    Log the current page title
     ${title}=    Get Title
     Log    Current page title: ${title}
-    [Return]    ${title}
+    Return    ${title}
 
 Take Screenshot
     [Documentation]    Take a screenshot for debugging

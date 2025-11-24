@@ -1,8 +1,3 @@
-"""
-Browser helper module for managing Selenium WebDriver initialization and configuration.
-Provides centralized browser setup and teardown functionality.
-"""
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
